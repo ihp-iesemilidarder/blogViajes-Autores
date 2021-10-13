@@ -2,6 +2,7 @@ let placesJSON=[];
 let favoritesPlaces=JSON.parse(localStorage.getItem("favourites"))||[];
 const articlesContainer=document.querySelector("body main");
 const favoritesContainer=document.querySelector("body #entradas-favoritas > div");
+const clearFavorites=document.querySelector("body #entradas-favoritas input");
 
 const star=(obj)=>{
     if(favoritesPlaces.some(el=>el.title==obj.title)){
@@ -66,5 +67,11 @@ const init=async()=>{
     printArticles();
     printFavourites();
     articlesContainer.addEventListener("click",addFavourites);
+    clearFavorites.addEventListener("click",()=>{
+        localStorage.clear();
+        favoritesPlaces=[];
+        printFavourites();
+        printArticles();
+    })
 }
 init();
