@@ -1,0 +1,23 @@
+[
+    {
+        "img":"imagen_1.jpg",
+        "title":"Viajar a Londres",
+        "description":"VIaja a Londres desde solo 5€!! Tu gran experiencia!!",
+        "data":"10/02/2002",
+        "author":"Ivan"
+    },
+    {
+        "img":"imagen_2.jpg",
+        "title":"Puente de la Torre",
+        "description":"Puente de la Torre desde solo 10€!! Tu gran experiencia!!",
+        "data":"10/02/2005",
+        "author":"Paula"
+    },
+    {
+        "img":"imagen_3.jpg",
+        "title":"Metro de Londres",
+        "description":"Los expectaculares metros de Londres!",
+        "data":"10/05/2022",
+        "author":"Pedro"
+    }
+]
