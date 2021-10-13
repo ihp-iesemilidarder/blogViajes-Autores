@@ -1,0 +1,71 @@
+*{
+    border: none;
+    margin: 0;
+}
+body{
+    background: #f8f9fa;
+}
+main{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top:0;
+    background: transparent;
+    position: absolute;
+    margin: 0 5%;
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% auto auto;
+}
+/* form */
+    main form fieldset legend{
+        font-size:2em;
+        font-weight:bold;
+        margin:0.67em 0;
+    }
+    main form input, main form select{
+        background: white;
+        outline:none;
+        border: 1px solid lightgray;
+        margin: 2%;
+        font-size: 1em;
+    }
+    main form input[type="submit"]{
+        background:#007bff;
+        color: white;
+        padding: 1%;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        margin: 0;
+    }
+/*authors list */
+    main table{
+        width: 100%;
+        margin: 2% 0;
+        border-collapse:collapse;
+    }
+    main table td,main table th{
+        padding: 10px 0;
+        text-align: left;
+    }
+    main table th:first-child{
+        text-align:center;
+    }
+    main table tbody tr:nth-child(odd){
+        background:lightgray;
+    }
+    main table tbody tr > td:first-child{
+        font-weight:bold;
+        width:7%;
+        text-align:center;
+    }
+    main table .buttons{
+    }
+    main table .buttons i{
+        font-size: 1.5em;
+    }
+    main table .fa-trash{
+        color:red;
+        cursor: pointer;
+    }

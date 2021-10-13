@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autores</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/fd78996b80.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <div id="header">
+            <h1>Autores</h1>
+            <div></div>
+        </div>
+        <form>
+            <fieldset>
+                <legend>Formulario de registro</legend>
+                <input type="text" name="nif" id="nif" placeholder="nif">
+                <input type="text" name="name" id="name" placeholder="name">
+                <input type="text" name="surname1" id="surname1" placeholder="surname1">
+                <input type="text" name="surname2" id="surname2" placeholder="surname2">
+                <input type="date" name="date" id="date" placeholder="date">
+                <select name="rol" id="rol">
+                    <option value="" selected disabled>-- rol --</option>
+                    <option value="admin">admin</option>
+                    <option value="publisher">publicador</option>
+                    <option value="ajudant">ajudante</option>
+                </select>
+            </fieldset>
+            <input type="submit" value="Enviar">
+        </form>
+        <div id="list">
+            <h1>Lista de autores</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>NIF</th>
+                        <th>Nombre</th>
+                        <th>Apellidos</th>
+                        <th>Fecha</th>
+                        <th>Rol</th>                        
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
