@@ -1,3 +1,2 @@
-#Tiempo de dedicacion:
-
-2H clase
+# Tiempo de dedicacion:
+2 horas en clase
